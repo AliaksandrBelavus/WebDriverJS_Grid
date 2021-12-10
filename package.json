@@ -1,0 +1,17 @@
+{
+  "name": "webdriverjs_basic",
+  "version": "1.0.0",
+  "description": "Home Task for Module WebDriverJS Basic",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Aliaksandr Belavus",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "protractor": "^7.0.0",
+    "selenium-webdriver": "^4.1.0"
+  }
+}
