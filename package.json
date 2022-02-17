@@ -4,7 +4,7 @@
   "description": "Home Task for Module WebDriverJS Grid",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./webdriver.js --timeout 10000"
+    "test": "mocha ./webdriver.js --timeout 60000"
   },
   "author": "Aliaksandr Belavus",
   "license": "ISC",

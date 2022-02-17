@@ -2,8 +2,9 @@ const {Builder, By, until, Capabilities } = require("selenium-webdriver");
 const expect = require('chai').expect;
 var driver = new Builder()
         .usingServer('http://localhost:4444/wd/hub')
-        .withCapabilities(Capabilities.firefox())
-        //.forBrowser("chrome")
+        .withCapabilities(Capabilities.chrome())
+        //.withCapabilities(Capabilities.firefox())
+        //.withCapabilities(Capabilities.ie())
         .build();
 driver.manage().window().maximize(); 
 
