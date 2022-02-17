@@ -1,10 +1,10 @@
 {
   "name": "webdriverjs_basic",
   "version": "1.0.0",
-  "description": "Home Task for Module WebDriverJS Basic",
+  "description": "Home Task for Module WebDriverJS Grid",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha ./webdriver.js --timeout 10000"
   },
   "author": "Aliaksandr Belavus",
   "license": "ISC",
